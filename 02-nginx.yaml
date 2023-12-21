@@ -2,7 +2,7 @@
   hosts: localhost
   become: yes
   tasks: 
-  - name: install nginx
+  - name: install nginx package
     ansible.builtin.package:
     state: present
   - name: start nginx
