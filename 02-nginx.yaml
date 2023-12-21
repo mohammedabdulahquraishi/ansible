@@ -10,7 +10,4 @@
     ansible.builtin.service:
       name: nginx
       state: started
-  - name: delete nginx
-    ansible.builtin.service:
-      name: nginx
-      state: absent      
+       
