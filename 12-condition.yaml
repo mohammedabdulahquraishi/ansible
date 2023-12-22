@@ -5,3 +5,5 @@
   - name: check roboshop user exists or not
     ansible.builtin.comment: id roboshop
     register: user
+    ignore-errors: true
+    
