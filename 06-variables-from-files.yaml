@@ -1,0 +1,12 @@
+- name: variables from play level
+  hosts: localhost
+  vars-files:
+  - variables.yaml
+  tasks:
+  - name: check variables from another file
+    vars: 
+      course: "Devops with aws"
+      trainer: "sivakumar sir"
+      duration: "110 weeks"
+    ansible.builtin.debug:
+      msg: "hi i am learning {{course}},my trainer is {{trainer}}.course duration is {{duration}}."
