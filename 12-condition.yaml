@@ -6,3 +6,6 @@
     ansible.builtin.comment: id roboshop
     register: user
     ignore-errors: true
+  - name: print variable value
+    ansible.builtin.debug:
+      msg: "status is:{{user.rc}}"
