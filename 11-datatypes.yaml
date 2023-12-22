@@ -1,5 +1,5 @@
 - name: checking data types
-  hosts: local host
+  hosts: localhost
   vars:
     name: sivakumar
     skills:
