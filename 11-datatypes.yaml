@@ -12,7 +12,7 @@
       Devops: 7
       Kuber: 8
       linux: 10
-    trainee: true
+    trainer: true
   tasks:
   - name: print key value pair 
     ansible.builtin.debug:
